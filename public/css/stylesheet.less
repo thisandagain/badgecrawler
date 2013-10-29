@@ -1,0 +1,158 @@
+/**
+ * Global CSS definition.
+ *
+ * @package backpack
+ * @author Andrew Sliwinski <andrew@diy.org>
+ */
+
+/**
+ * Libraries
+ */
+@import "./lib/pure.less";
+
+/**
+ * Core styles
+ */
+@import "./lib/colors.less";
+@import "./lib/grid.less";
+@import "./lib/typography.less";
+
+// -----------------------------------------------------------------------------
+
+/**
+ * Header
+ */
+#header {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 98px;
+
+    background-color: white;
+
+    #logo {
+        display: block;
+        position: absolute;
+        top: 10px;
+    }
+
+    #navigation {
+        display: block;
+        position: absolute;
+        top: -6px;
+        left: 700px;
+
+        ul {
+            list-style: none;
+            padding: 0px;
+        }
+
+        li {
+            display: inline-block;
+            margin-right: 36px;
+        }
+
+        li.active {
+            color: @highlight;
+        }
+    }
+}
+
+/**
+ * Search bar
+ */
+#search {
+    margin-top: 20px;
+
+    input {
+        display: block;
+        position: relative;
+        width: 450px;
+        outline: none;
+        border: none;
+        padding: 10px;
+
+        font-size: 1.2em;
+        font-family: "Open Sans", sans-serif;
+    }
+}
+
+/**
+ * Pathways
+ */
+#badges {
+    .item {
+        display: block;
+        position: relative;
+        float: left;
+
+        width: 205px;
+        height: 205px;
+        overflow: hidden;
+        margin: 20px 20px 0 0;
+
+        border: 10px solid white;
+        background-color: @background;
+        background-size: 185px 185px;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        transition: background-size 0.2s;
+
+        h4, p {
+            visibility: hidden;
+        }
+    }
+
+    .item:hover {
+        cursor: pointer;
+        background-size: 196px 196px;
+    }
+
+    .item:nth-child(4n+4) {
+        margin: 20px 0 0 0;
+    }
+}
+
+/**
+ * Discover
+ */
+#issuers {
+    clear: both;
+    padding: 10px 0 20px 0;
+    margin-top: 20px;
+
+    color: @background;
+    background-color: @highlight;
+    font-weight: lighter;
+
+    h2 {
+        margin: 0 0 10px 0;
+    }
+
+    .item {
+        display: block;
+        position: relative;
+        float: left;
+
+        width: 165px;
+        overflow: hidden;
+        margin: 0 20px 0 0;
+        padding: 30px;
+
+        text-align: center;
+        background-color: white;
+    }
+
+    .item:nth-child(5) {
+        margin: 0;
+    }
+}
+
+/**
+ * Footer
+ */
+#footer {
+    color: @background;
+    background-color: @foreground;
+}

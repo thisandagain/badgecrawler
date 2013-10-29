@@ -1,0 +1,35 @@
+{
+  "name": "backpack",
+  "version": "0.0.0",
+  "private": true,
+  "repository": {
+    "url": "https://github.com/thisandagain/backpack"
+  },
+  "scripts": {
+    "build": "make build",
+    "start": "node app.js | ./node_modules/.bin/bunyan",
+    "test": "make test"
+  },
+  "dependencies": {
+    "bunyan": "~0.22.0",
+    "ecstatic": "~0.4.11",
+    "event-stream": "~3.0.16",
+    "lunr": "~0.4.2",
+    "require-all": "0.0.8"
+  },
+  "devDependencies": {
+    "browserify": "~2.34.1",
+    "browser-request": "~0.3.1",
+    "domready": "~0.2.12",
+    "hint-hint": "~0.4.0",
+    "less": "~1.4.2",
+    "mysql": "2.0.0-alpha9",
+    "request": "~2.27.0",
+    "tap": "~0.3.1",
+    "uglify-js": "~2.4.0"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">=0.8"
+  }
+}

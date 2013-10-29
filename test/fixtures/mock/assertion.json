@@ -1,0 +1,14 @@
+{
+    "uid": "9190b7fdd8e5188401de2602bd521ae0a93cb8bd",
+    "recipient": {
+        "identity": "sha256$78532bdb7d870bd27badb55fc80b3d4814f580a237694246e2706a3392064180",
+        "type": "email",
+        "hashed": true
+    },
+    "badge": "http://badger.openbadges.org/badge/meta/mozfest-session-leader",
+    "verify": {
+        "type": "hosted",
+        "url": "http://badger.openbadges.org/badge/assertion/9190b7fdd8e5188401de2602bd521ae0a93cb8bd"
+    },
+    "issuedOn": 1382797039
+}
