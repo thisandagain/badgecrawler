@@ -1,9 +1,9 @@
 {
-  "name": "backpack",
+  "name": "badgecrawler",
   "version": "0.0.0",
   "private": true,
   "repository": {
-    "url": "https://github.com/thisandagain/backpack"
+    "url": "https://github.com/thisandagain/badgecrawler"
   },
   "scripts": {
     "build": "make build",
