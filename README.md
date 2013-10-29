@@ -1,9 +1,3 @@
-## Backpack
-
-### Introduction
-
----
-
 ### Generate Search Index (Prototype)
 ```bash
 make index
